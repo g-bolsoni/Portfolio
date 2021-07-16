@@ -14,18 +14,23 @@
     <title>Portfolio</title>
 </head>
 <body>
-    <header class="menu ">
-        <div class="menu-left">
-            <a href="" class="link menu-1">Home</a>
-            <a href="" class="link menu-2">About</a>
-        </div>
-        <div class="menu-logo  ">
-            <h5 class="menu-3">Giovane</h5>
-        </div>
-        <div class="menu-right ">
-            <a href="" class="link menu-4">Works</a>
-            <a href="" class="link menu-5">Get in touch</a>
+    <header >
+        <div class="navbar ">
+            <div class="logo"><a href="#">Giovane</a></div>
 
+            <input type="checkbox" name="" id="hamburguer" style="display: none;"/>
+            <label  for="hamburguer">
+                <div class="hamburguer  "></div>
+            </label>
+          
+
+            <ul class="menu ">
+                <li class="pl-3 pb-3 "><a href="#" class="link">Home</a></li>
+                <li class="pl-3 pb-3 "><a href="#" class="link">About</a></li>
+                <li class="pl-3 pb-3 "><a href="#" class="link">Works</a></li>
+                <li class="pl-3 pb-3 "><a href="#" class="link">Get in touch</a></li>
+            </ul>
+            
         </div>
     </header>
     <!--Background-->
@@ -124,7 +129,7 @@
     </div>
  
     <!---->
-    <section class="container hero mb-4">
+    <section class="container hero ">
         <div class="container-item ">
             <div>
                 <h1>Giovane Souza</h1>
@@ -136,7 +141,7 @@
                 <h2 class="mask">Visual Desing</h2>
             </div>
 
-            <div class="flex-end pt-8">
+            <div class="text-end mt-5 mr-9">
                 <a href="http://" class="square">WORKS</a>
             </div>
         </div>
@@ -160,7 +165,7 @@
         <!-- TWITTER -->
         <div class="list-item py-6">
             <h5 class="color-gray mr-3">02.</h5>
-            <a href="#" target="_blank"><h3>TWITTER</h3></a>
+            <a href="https://twitter-clone-by-giovane.netlify.app/" target="_blank"><h3>TWITTER</h3></a>
            <img src="./img/twitter_clone.png" class="img-project" alt="twitter" />
         </div>
         <!-- CARDS RESPONSIVOS-->
@@ -204,6 +209,10 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.0/gsap.min.js" integrity="sha512-2fk3Q4NXPYAqIha0glLZ2nluueK43aNoxvijPf53+DgL7UW9mkN+uXc1aEmnZdkkZVvtJZltpRt+JqTWc3TS3Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.0/ScrollTrigger.min.js" integrity="sha512-jNJOCd1PIjJoUa1XTDKaPdBLNUe4OJTrltKG+70O5ghYZ943nTRGIzjObwC2JtSm1fG7T06GbUApR2eirIU/jA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
         <script src="./js/index.js"></script>
+        <!--jquery-->
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+        <script src="./js/navbar.js"></script>
+
     </footer>
 
 
